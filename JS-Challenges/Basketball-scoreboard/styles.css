@@ -3,3 +3,52 @@
     font-family: seven-segment;
 }
 
+body {
+    background-color: #1D3557;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-color: #457B9D;
+    margin: 0 auto;
+    color: #F1FAEE;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 800px;
+    height: 500px;
+}
+
+.score {
+    background-color: #A8DADC;
+    width: 150px;
+    height: 120px;
+    position: relative;
+}
+
+.inner {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+#score-count-a, #score-count-b {
+    color: #E63946;
+    font-size: 90px;
+    font-family: seven-segment;
+    
+}
+
+.shortcuts {
+    position: relative;
+    top: 130%;
+}
+
+.btn {
+    background: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
